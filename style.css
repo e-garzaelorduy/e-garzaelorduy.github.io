@@ -35,7 +35,7 @@ body {
 }
 
 nav a {
-    color: #FF5733;
+    color: #A52422;
     font-weight: 400;
     text-decoration: none;
     margin: 0.5em;
@@ -43,11 +43,11 @@ nav a {
 }
 
 nav a.active {
-    color: #FF4500;
+    color: #A52422;
 }
 
 nav a:hover {
-    color: #FF4500;
+    color: #A52422;
 }
 
 /* Social icons styling */
@@ -65,7 +65,7 @@ nav a:hover {
 
 .icon:hover {
     transform: scale(1.2);
-    color: #FF4500;
+    color: #A52422;
 }
 
 /* Section styling with max-width for margins */
@@ -82,7 +82,7 @@ section {
 h2 {
     font-size: 3em;
     font-weight: 400;
-    color: #FF5733;
+    color: #A52422;
 }
 
 h3 {
@@ -98,5 +98,5 @@ p {
 
 .bold-text {
     font-weight: 700;
-    color: #FF5733;
+    color: #A52422;
 }
