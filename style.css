@@ -1,16 +1,16 @@
 /* General page styling */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #FFD166;
-    color: #000000;
+    background-color: #FFD166; /* Background color */
+    color: #A52422; /* Default body text color */
     margin: 0;
+    text-align: center; /* Center-align all text */
 }
 
 /* Top bar styling */
 .top-bar {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     background-color: #FFD166;
     display: flex;
@@ -21,18 +21,19 @@ body {
 
 .avatar {
     border-radius: 50%;
-    width: 100px; /* Adjust size as needed */
-    margin-bottom: 0.5em;
+    width: 150px; /* Increase size as desired */
+    height: 150px;
+    margin-bottom: 1em;
 }
 
 .name {
-    color: #A52422;
+    color: #A52422; /* Sidebar font color */
     font-weight: 300;
     margin: 0.5em 0;
 }
 
 nav a {
-    color: #A52422;
+    color: #FF5733; /* Custom color for links */
     font-weight: 400;
     text-decoration: none;
     margin: 0.5em;
@@ -40,36 +41,54 @@ nav a {
 }
 
 nav a.active {
-    color: #6e9296; /* Highlight color for active section */
+    color: #FF4500; /* Highlight color when active */
 }
 
 nav a:hover {
-    color: #6e9296;
+    color: #FF4500;
+}
+
+/* Social icons styling */
+.social-icons {
+    margin-top: 1em;
+}
+
+.icon {
+    font-size: 1.5em; /* Adjust icon size */
+    color: #A52422; /* Icon color */
+    margin: 0 0.5em;
+    transition: transform 0.2s, color 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: #FF4500; /* Change color on hover */
 }
 
 /* Section styling */
-main {
-    margin-top: 200px; /* Offset for top-bar */
-    padding: 1em;
-}
-
 section {
     padding: 3em 0;
+    margin: 0 auto;
 }
 
 h2 {
-    font-size: 3em; /* 3x size of body text */
+    font-size: 3em;
     font-weight: 400;
-    color: #A52422;
+    color: #FF5733;
 }
 
 h3 {
-    font-size: 2em; /* 2x size of body text */
+    font-size: 2em;
     font-weight: 400;
-    color: #6e9296;
+    color: #A52422;
 }
 
 /* Body text styling */
 p {
     font-weight: 200;
+}
+
+.bold-text {
+    font-weight: 700; /* Bold weight */
+    color: #FF5733;
 }
