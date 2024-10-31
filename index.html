@@ -43,7 +43,7 @@
             <p>I’m passionate about <span class="bold-text">responsible tech</span> and <span class="bold-text">education reform</span>, and I’m driven to work at the <span class="bold-text">intersection of technology, policy, and education</span>. My goal is to create <span class="bold-text">data-driven solutions</span> that inspire meaningful change and support progress across these areas.</p>
 
             <h3 id="cv">CV</h3>
-            <p><a href="CV.pdf" target="_blank">View my CV</a></p>
+            <iframe src="CV.pdf" width="100%" height="600px" style="border: none;"></iframe>
         </section>
 
         <section id="projects">
@@ -67,7 +67,7 @@
 
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
-                if (window.scrollY >= sectionTop - 100) {
+                if (window.scrollY >= sectionTop - 120) {  // Offset for the top bar
                     current = section.getAttribute("id");
                 }
             });

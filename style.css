@@ -1,10 +1,10 @@
 /* General page styling */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #FFD166; /* Background color */
-    color: #A52422; /* Default body text color */
+    background-color: #FFD166;
+    color: #A52422;
     margin: 0;
-    text-align: center; /* Center-align all text */
+    text-align: center;
 }
 
 /* Top bar styling */
@@ -17,23 +17,25 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1em;
+    z-index: 10;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .avatar {
     border-radius: 50%;
-    width: 150px; /* Increase size as desired */
+    width: 150px;
     height: 150px;
     margin-bottom: 1em;
 }
 
 .name {
-    color: #A52422; /* Sidebar font color */
+    color: #A52422;
     font-weight: 300;
     margin: 0.5em 0;
 }
 
 nav a {
-    color: #FF5733; /* Custom color for links */
+    color: #FF5733;
     font-weight: 400;
     text-decoration: none;
     margin: 0.5em;
@@ -41,7 +43,7 @@ nav a {
 }
 
 nav a.active {
-    color: #FF4500; /* Highlight color when active */
+    color: #FF4500;
 }
 
 nav a:hover {
@@ -54,21 +56,27 @@ nav a:hover {
 }
 
 .icon {
-    font-size: 1.5em; /* Adjust icon size */
-    color: #A52422; /* Icon color */
+    font-size: 1.5em;
+    color: #A52422;
     margin: 0 0.5em;
     transition: transform 0.2s, color 0.3s;
+    text-decoration: none;
 }
 
 .icon:hover {
     transform: scale(1.2);
-    color: #FF4500; /* Change color on hover */
+    color: #FF4500;
 }
 
-/* Section styling */
+/* Section styling with max-width for margins */
+main {
+    max-width: 800px; /* Control width for readability */
+    margin: 0 auto;
+    padding-top: 200px; /* Offset for fixed top-bar */
+}
+
 section {
     padding: 3em 0;
-    margin: 0 auto;
 }
 
 h2 {
@@ -89,6 +97,6 @@ p {
 }
 
 .bold-text {
-    font-weight: 700; /* Bold weight */
+    font-weight: 700;
     color: #FF5733;
 }
