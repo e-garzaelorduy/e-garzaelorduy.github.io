@@ -13,50 +13,8 @@
 </head>
 <body>
 
-    <div class="top-bar">
-        <img src="avatar.jpg" alt="Erika's Avatar" class="avatar">
-        <h1 class="name">ERIKA GARZA ELORDUY</h1>
-        <nav>
-            <a href="#about">ABOUT</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#organizations">ORGANIZATIONS</a>
-        </nav>
+    <!-- Your existing HTML structure here -->
 
-        <!-- Social media icons -->
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/erika-garza-elorduy/" target="_blank" class="icon">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/e-garzaelorduy" target="_blank" class="icon">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="mailto:erikagarzaelorduy@gmail.com" class="icon">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-        </div>
-    </div>
-
-    <main>
-        <section id="about">
-            <h2>ABOUT</h2>
-            <p>Hey there! I'm a master's student in <span class="bold-text">Computational Social Science</span> at UC San Diego, with a background in <span class="bold-text">Child Psychology</span> and a deep interest in <span class="bold-text">AI Ethics</span> and <span class="bold-text">Digital Literacy</span>.</p>
-            <p>I’m passionate about <span class="bold-text">responsible tech</span> and <span class="bold-text">education reform</span>, and I’m driven to work at the <span class="bold-text">intersection of technology, policy, and education</span>. My goal is to create <span class="bold-text">data-driven solutions</span> that inspire meaningful change and support progress across these areas.</p>
-
-            <h3 id="cv">CV</h3>
-            <iframe src="CV.pdf" width="100%" height="600px" style="border: none;"></iframe>
-        </section>
-
-        <section id="projects">
-            <h2>PROJECTS</h2>
-            <p>Coming soon! Check back for updates on my latest projects.</p>
-        </section>
-
-        <section id="organizations">
-            <h2>ORGANIZATIONS</h2>
-            <p>I'm a Core Team Member at <a href="https://www.innoforeveryone.org/" target="_blank">Innovation for Everyone</a>, where I work on the curriculum team to build the <em>AI for Critical Thinking Guide</em>. Our team is dedicated to developing accessible resources for educators, helping them understand and teach AI’s impact on society.</p>
-        </section>
-    </main>
- 
     <!-- JavaScript for scroll-based active link highlighting -->
     <script>
         document.addEventListener("scroll", () => {
@@ -77,6 +35,21 @@
                 if (link.getAttribute("href").includes(current)) {
                     link.classList.add("active");
                 }
+            });
+        });
+    </script>
+
+    <!-- Additional JavaScript to handle smooth scrolling offset for links -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetID = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetID);
+                window.scrollTo({
+                    top: targetSection.offsetTop - 120, // Adjust 120px as per top bar height
+                    behavior: 'smooth'
+                });
             });
         });
     </script>
