@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erika Garza Elorduy's Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <img src="avatar.jpg" alt="Erika's Avatar" class="avatar">
+        <h1 class="name">ERIKA GARZA ELORDUY</h1>
+        <nav>
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#organizations">ORGANIZATIONS</a>
+        </nav>
+    </div>
+
+    <main>
+        <section id="about">
+            <h2>ABOUT</h2>
+            <p>Content for the ABOUT section goes here...</p>
+            <h3>CV</h3>
+            <p>Details about CV...</p>
+        </section>
+
+        <section id="projects">
+            <h2>PROJECTS</h2>
+            <h3>Working Papers</h3>
+            <p>Details on Working Papers...</p>
+        </section>
+
+        <section id="organizations">
+            <h2>ORGANIZATIONS</h2>
+            <p>Information about organizations goes here...</p>
+        </section>
+    </main>
+
+    <!-- JavaScript for scroll-based active link highlighting -->
+    <script>
+        document.addEventListener("scroll", () => {
+            const sections = document.querySelectorAll("main section");
+            const navLinks = document.querySelectorAll(".top-bar nav a");
+
+            let current = "";
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (window.scrollY >= sectionTop - 100) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+                if (link.getAttribute("href").includes(current)) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

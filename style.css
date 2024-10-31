@@ -1,0 +1,75 @@
+/* General page styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFD166;
+    color: #000000;
+    margin: 0;
+}
+
+/* Top bar styling */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFD166;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100px; /* Adjust size as needed */
+    margin-bottom: 0.5em;
+}
+
+.name {
+    color: #A52422;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+nav a {
+    color: #A52422;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0.5em;
+    transition: color 0.3s;
+}
+
+nav a.active {
+    color: #6e9296; /* Highlight color for active section */
+}
+
+nav a:hover {
+    color: #6e9296;
+}
+
+/* Section styling */
+main {
+    margin-top: 200px; /* Offset for top-bar */
+    padding: 1em;
+}
+
+section {
+    padding: 3em 0;
+}
+
+h2 {
+    font-size: 3em; /* 3x size of body text */
+    font-weight: 400;
+    color: #A52422;
+}
+
+h3 {
+    font-size: 2em; /* 2x size of body text */
+    font-weight: 400;
+    color: #6e9296;
+}
+
+/* Body text styling */
+p {
+    font-weight: 200;
+}
