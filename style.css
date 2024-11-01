@@ -2,13 +2,13 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3D250; /* Yellow background */
-    color: #5DA2D5; /* Dark blue for body text */
+    color: #13505B; /* Dark blue for body text */
     margin: 0;
     text-align: center;
     padding-top: 150px; /* Offset for fixed top bar */
 }
 
-/* Top bar styling with new layout */
+/* Top bar styling with updated layout */
 .top-bar {
     position: fixed;
     top: 0;
@@ -31,8 +31,8 @@ body {
 
 .avatar {
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 100px; /* Larger size for avatar */
+    height: 100px;
 }
 
 .name-and-icons {
@@ -43,9 +43,9 @@ body {
 }
 
 .name {
-    color: #90CCF4; /* Light blue for name */
-    font-weight: 700; /* Bold font */
-    font-size: 2em; /* Larger font size */
+    color: #0C7489; /* Updated light blue color for name */
+    font-weight: 900; /* Bold weight for emphasis */
+    font-size: 2.5em; /* Larger font size */
     margin: 0;
 }
 
@@ -55,13 +55,13 @@ body {
 }
 
 .icon {
-    color: #90CCF4; /* Light blue for icons */
+    color: #0C7489; /* Light blue for icons */
     font-size: 1.5em;
     transition: color 0.3s, transform 0.2s;
 }
 
 .icon:hover {
-    color: #5DA2D5; /* Dark blue on hover */
+    color: #13505B; /* Dark blue on hover */
     transform: scale(1.1);
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .section-links a {
-    color: #5DA2D5; /* Dark blue for section names */
+    color: #13505B; /* Dark blue for section names */
     font-weight: 400;
     text-decoration: none;
     transition: color 0.3s;
@@ -81,7 +81,7 @@ body {
 
 .section-links a:hover,
 .section-links a.active {
-    color: #90CCF4; /* Light blue hover for active section */
+    color: #0C7489; /* Light blue hover for active section */
 }
 
 /* Main content styling */
@@ -98,29 +98,29 @@ section {
 h2 {
     font-size: 3em;
     font-weight: 400;
-    color: #5DA2D5; /* Dark blue for main headers */
+    color: #13505B; /* Dark blue for main headers */
 }
 
 h3 {
     font-size: 2em;
     font-weight: 400;
-    color: #90CCF4; /* Light blue for subheaders */
+    color: #0C7489; /* Light blue for subheaders */
 }
 
 /* Body text styling */
 p {
     font-weight: 200;
-    color: #5DA2D5; /* Dark blue for body text */
+    color: #13505B; /* Dark blue for body text */
 }
 
 .bold-text {
     font-weight: 700;
-    color: #90CCF4; /* Light blue for emphasis */
+    color: #0C7489; /* Light blue for emphasis */
 }
 
 /* CV Toggle Button Styling */
 .cv-toggle {
-    background-color: #90CCF4; /* Light blue for CV button */
+    background-color: #0C7489; /* Light blue for CV button */
     color: white;
     border: none;
     padding: 0.5em 1em;
@@ -132,5 +132,5 @@ p {
 }
 
 .cv-toggle:hover {
-    background-color: #5DA2D5; /* Dark blue on hover */
+    background-color: #13505B; /* Dark blue on hover */
 }

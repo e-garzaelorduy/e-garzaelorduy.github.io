@@ -14,24 +14,25 @@
 <body>
 
     <div class="top-bar">
-        <img src="avatar.jpg" alt="Erika's Avatar" class="avatar">
-        
-        <div class="name-and-icons">
-            <h1 class="name">ERIKA GARZA ELORDUY</h1>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/erika-garza-elorduy/" target="_blank" class="icon">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/e-garzaelorduy" target="_blank" class="icon">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="mailto:erikagarzaelorduy@gmail.com" class="icon">
-                    <i class="fa-solid fa-envelope"></i>
-                </a>
+        <div class="profile-container">
+            <img src="avatar.jpg" alt="Erika's Avatar" class="avatar">
+            
+            <div class="name-and-icons">
+                <h1 class="name">ERIKA GARZA ELORDUY</h1>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/erika-garza-elorduy/" target="_blank" class="icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/e-garzaelorduy" target="_blank" class="icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="mailto:erikagarzaelorduy@gmail.com" class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
             </div>
         </div>
 
-        <!-- Navigation links arranged horizontally below -->
         <nav class="section-links">
             <a href="#about">ABOUT</a>
             <a href="#projects">PROJECTS</a>
@@ -103,14 +104,4 @@
         // JavaScript for collapsible CV content
         document.getElementById('cv-toggle').addEventListener('click', function() {
             const cvContent = document.getElementById('cv-content');
-            if (cvContent.style.display === 'none') {
-                cvContent.style.display = 'block';
-                this.textContent = 'Hide CV';
-            } else {
-                cvContent.style.display = 'none';
-                this.textContent = 'Show CV';
-            }
-        });
-    </script>
-</body>
-</html>
+            if (cvContent.style.display ===
