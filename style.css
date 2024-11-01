@@ -1,8 +1,8 @@
 /* General page styling */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #FFD166;
-    color: #A52422;
+    background-color: #e9bc51; /* Warm yellow background */
+    color: #3c87b1; /* High contrast body text color */
     margin: 0;
     text-align: center;
     padding-top: 150px; /* Offset for fixed top bar */
@@ -13,7 +13,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #FFD166;
+    background-color: #b16b97; /* Accessible primary color for top bar */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@ body {
 
 .avatar {
     border-radius: 50%;
-    width: 80px; /* Larger size for centered top bar */
+    width: 80px;
     height: 80px;
     margin-bottom: 0.5em;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .name {
-    color: #A52422;
+    color: #3c87b1; /* Contrast color for name */
     font-weight: 300;
     margin: 0;
 }
@@ -48,13 +48,13 @@ body {
 }
 
 .icon {
-    color: #A52422; /* Base color for icons */
+    color: #dd94c2; /* Softer color for icons */
     font-size: 1.5em;
-    transition: color 0.3s, transform 0.2s; /* Smooth transition for color and scale */
+    transition: color 0.3s, transform 0.2s;
 }
 
 .icon:hover {
-    color: #CF6F6D; /* 30% lighter shade on hover */
+    color: #afc55a; /* Stronger accent color on hover */
     transform: scale(1.1);
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 .section-links a {
-    color: #FF5733;
+    color: #3c87b1; /* High contrast link color */
     font-weight: 400;
     text-decoration: none;
     transition: color 0.3s;
@@ -74,7 +74,7 @@ body {
 
 .section-links a:hover,
 .section-links a.active {
-    color: #FF4500;
+    color: #dd94c2; /* Accessible hover color for links */
 }
 
 /* Main content styling */
@@ -86,33 +86,36 @@ main {
 
 section {
     padding: 3em 0;
+    background-color: #e9bc51; /* Soft background for each section */
+    border-radius: 8px;
 }
 
 h2 {
     font-size: 3em;
     font-weight: 400;
-    color: #FF5733;
+    color: #b16b97; /* Strong color for headers */
 }
 
 h3 {
     font-size: 2em;
     font-weight: 400;
-    color: #A52422;
+    color: #3c87b1; /* High contrast subheader color */
 }
 
 /* Body text styling */
 p {
     font-weight: 200;
+    color: #3c87b1; /* High contrast body text color */
 }
 
 .bold-text {
     font-weight: 700;
-    color: #FF5733;
+    color: #b16b97; /* Accent color for emphasis */
 }
 
 /* CV Toggle Button Styling */
 .cv-toggle {
-    background-color: #A52422;
+    background-color: #b16b97; /* Primary button color */
     color: white;
     border: none;
     padding: 0.5em 1em;
@@ -124,5 +127,5 @@ p {
 }
 
 .cv-toggle:hover {
-    background-color: #FF5733;
+    background-color: #afc55a; /* Accessible hover color */
 }
