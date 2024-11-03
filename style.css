@@ -1,0 +1,45 @@
+/* Background and Text Colors */
+body {
+    background-color: #f7f7f7;  /* Light gray for a clean, minimalist look */
+    color: #333;  /* Dark gray text */
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;  /* Consistent dark gray for headings */
+}
+a {
+    color: #0366d6;  /* Hyde's signature blue for links */
+    text-decoration: none;
+}
+a:hover {
+    color: #004080;  /* Slightly darker blue on hover */
+}
+
+/* Navigation and Icons */
+.top-nav {
+    background-color: #24292e;  /* Dark background for top navigation */
+    color: #ffffff;  /* White text for good contrast */
+}
+.top-nav a {
+    color: #ffffff;  /* Keep nav links white */
+}
+.top-nav a:hover {
+    color: #ddd;  /* Light gray on hover */
+}
+
+.social-icons a {
+    color: #0366d6;  /* Blue for social icons */
+}
+.social-icons a:hover {
+    color: #004080;  /* Darker blue on hover */
+}
+
+/* Profile Picture and Layout Adjustments */
+.profile-pic {
+    border: 3px solid #ddd;  /* Light border around profile picture */
+    border-radius: 50%;  /* Circle shape */
+}
+
+/* Collapsible CV Section */
+.collapsed {
+    display: none;  /* Hide section when collapsed */
+}
