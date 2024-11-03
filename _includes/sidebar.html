@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Erika Garza Elorduy's Site</title>
-
-  <!-- Font Awesome for social icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
-
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
@@ -23,27 +11,12 @@
       <p class="lead">Master's student in Computational Social Science, passionate about responsible tech, AI ethics, and education reform.</p>
     </div>
 
-    <!-- Dynamic Navigation links -->
+    <!-- Custom Sidebar Navigation -->
     <nav class="sidebar-nav">
-      <!-- Static Home link -->
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-      {% comment %}
-        Dynamic generation of sidebar nav for pages with `layout: page`
-      {% endcomment %}
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-
-      <!-- Additional links -->
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a class="sidebar-nav-item{% if page.url == '/about' %} active{% endif %}" href="{{ site.baseurl }}/about">About Me</a>
+      <a class="sidebar-nav-item{% if page.url == '/projects' %} active{% endif %}" href="{{ site.baseurl }}/projects">Projects</a>
+      <a class="sidebar-nav-item{% if page.url == '/organizations' %} active{% endif %}" href="{{ site.baseurl }}/organizations">Organizations</a>
     </nav>
 
     <!-- Social media icons -->
@@ -63,6 +36,3 @@
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
-
-</body>
-</html>
