@@ -3,35 +3,15 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
+<div class="intro">
+  <h1>Welcome to My Site!</h1>
+  <p>Hi there! I'm Erika, a master's student in Computational Social Science at UC San Diego. My interests lie at the intersection of technology, policy, and education, with a focus on responsible tech, AI ethics, and digital literacy. I'm thrilled to share my work and passions with you.</p>
+  <p>Please feel free to browse through my projects and organizations that I’m part of. And if you'd like to chat about education, technology in education, or my work in AI, I'd love to connect! Reach out to me via <a href="mailto:your.email@example.com">Email</a> or <a href="https://www.linkedin.com/in/yourprofile/" target="_blank">LinkedIn</a>.</p>
+  <p>If you’re in the San Diego area, let’s grab coffee or have lunch!</p>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+<div class="links">
+  <a href="/about">About Me</a> |
+  <a href="/projects">Projects</a> |
+  <a href="/organizations">Organizations</a>
 </div>
