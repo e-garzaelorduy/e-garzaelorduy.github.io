@@ -13,7 +13,8 @@
 
     <!-- Custom Sidebar Navigation -->
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == '' %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl or page.url == site.baseurl | append: "/" %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+      <a class="sidebar-name" href="{{ site.baseurl }}/">Erika Garza Elorduy</a>
       <a class="sidebar-nav-item{% if page.url == '/about' %} active{% endif %}" href="{{ site.baseurl }}/about">About Me</a>
       <a class="sidebar-nav-item{% if page.url == '/projects' %} active{% endif %}" href="{{ site.baseurl }}/projects">Projects</a>
       <a class="sidebar-nav-item{% if page.url == '/organizations' %} active{% endif %}" href="{{ site.baseurl }}/organizations">Organizations</a>
