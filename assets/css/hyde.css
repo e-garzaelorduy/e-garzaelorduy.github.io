@@ -251,8 +251,8 @@ a.sidebar-nav-item:focus {
 
 /* Profile picture styling */
 .profile-pic {
-  width: 150px; /* Adjust size as needed */
-  height: 150px; /* Ensures a square size for the circular crop */
+  width: 180px; /* Adjust size as needed */
+  height: 180px; /* Ensures a square size for the circular crop */
   border-radius: 50%; /* Makes the image circular */
   position: absolute; /* Allows positioning relative to the content */
   right: 30%; /* Moves the image closer to the center */
