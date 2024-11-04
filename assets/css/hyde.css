@@ -33,16 +33,16 @@
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: 0.9em; /* Reduce font size to 90% */
+  font-size: 0.8em; /* Reduce font size to 90% */
 }
 @media (min-width: 48em) {
   html {
-    font-size: 14.4px; /* 90% of the original 16px */
+    font-size: 13px; /* 90% of the original 16px */
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 18px; /* 90% of the original 20px */
+    font-size: 16px; /* 90% of the original 20px */
   }
 }
 
@@ -255,5 +255,5 @@ a.sidebar-nav-item:focus {
   height: 100px; /* Ensures a square size for the circular crop */
   border-radius: 50%; /* Makes the image circular */
   display: block;
-  margin: 0 auto 15px auto; /* Centers the image and adds space below */
+  margin: 0 0 15px 0; /* Removes automatic centering, adds space below */
 }
