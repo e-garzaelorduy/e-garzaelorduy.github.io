@@ -249,14 +249,14 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-/* Styles for the profile picture */
+/* Profile picture styling */
 .profile-pic {
-  width: 120px; /* Adjust as needed for size */
-  height: 120px;
+  width: 120px; /* Adjust size as needed */
+  height: 120px; /* Ensures a square size for the circular crop */
   border-radius: 50%; /* Makes the image circular */
-  position: absolute; /* Allows positioning relative to the page */
-  right: 20px; /* Distance from the right side */
-  bottom: 20px; /* Distance from the bottom */
-  border: 2px solid #FFFFFF; /* Optional: adds a border around the image */
+  position: absolute; /* Allows positioning relative to the content */
+  right: 20px; /* Adjust distance from the right edge */
+  bottom: 20px; /* Adjust distance from the bottom of the text */
+  border: 2px solid #FFFFFF; /* Optional: adds a white border around the image */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
 }
