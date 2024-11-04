@@ -255,6 +255,6 @@ a.sidebar-nav-item:focus {
   height: 180px; /* Ensures a square size for the circular crop */
   border-radius: 50%; /* Makes the image circular */
   position: absolute; /* Allows positioning relative to the content */
-  right: 25%; /* Moves the image closer to the center */
-  bottom: 100px; /* Raises the image higher above the bottom */
+  right: 15%; /* Moves the image closer to the center */
+  bottom: 130px; /* Raises the image higher above the bottom */
 }
