@@ -3,8 +3,6 @@ layout: page
 title: Projects
 ---
 
-# Projects
-
 ## Capstone Project: Deep Learning Wrappers and Data Imputation Techniques
 Under the guidance of Dr. Umberto Mignozzetti, my capstone project focuses on deep learning methodologies, including neural network structures, training processes, and practical applications. This exploration involves analyzing and refining various model architectures, gaining hands-on experience with neural network optimization and deployment in real-world scenarios.
 
