@@ -95,8 +95,13 @@ a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
+
+/* Active state styling for the current page link */
 .sidebar-nav-item.active {
   font-weight: bold;
+  color: #b1b1b1; /* Highlight color for the active link */
+  border-left: 3px solid #b1b1b1; /* Adds a border for emphasis */
+  padding-left: 10px; /* Adds space for the border */
 }
 
 /* Sticky sidebar
@@ -251,8 +256,8 @@ a.sidebar-nav-item:focus {
 
 /* Profile picture in the sidebar */
 .sidebar .profile-pic {
-  width: 100px; /* Adjust size as needed */
-  height: 100px; /* Ensures a square size for the circular crop */
+  width: 130px; /* Adjust size as needed */
+  height: 130px; /* Ensures a square size for the circular crop */
   border-radius: 50%; /* Makes the image circular */
   display: block;
   margin: 0 0 15px 0; /* Removes automatic centering, adds space below */
