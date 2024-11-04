@@ -256,5 +256,5 @@ a.sidebar-nav-item:focus {
   border-radius: 50%; /* Makes the image circular */
   position: absolute; /* Allows positioning relative to the content */
   right: 25%; /* Moves the image closer to the center */
-  bottom: 70px; /* Raises the image higher above the bottom */
+  bottom: 100px; /* Raises the image higher above the bottom */
 }
