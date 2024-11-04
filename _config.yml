@@ -10,7 +10,7 @@ title:            "Erika Garza Elorduy's Website"
 tagline:          'A Jekyll theme'
 description:      'A personal site using Hyde theme'
 url:              https://e-garzaelorduy.github.io
-baseurl:          /
+baseurl:          ""
 
 author:
   name:           'Mark Otto'
@@ -22,4 +22,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/e-garzaelorduy/e-garzaelorduy.github.io
