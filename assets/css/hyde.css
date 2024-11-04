@@ -234,7 +234,7 @@ a.sidebar-nav-item:focus {
 /* Magenta */
 .theme-base-0e .sidebar {
   background-color: #aa759f;
-}
+} 
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
   color: #aa759f;
@@ -252,7 +252,7 @@ a.sidebar-nav-item:focus {
 /* Styles for the profile picture */
 .profile-pic {
   width: 120px; /* Adjust as needed for size */
-  height: 120px; /* Ensures a perfect circle */
+  height: 120px;
   border-radius: 50%; /* Makes the image circular */
   position: absolute; /* Allows positioning relative to the page */
   right: 20px; /* Distance from the right side */
