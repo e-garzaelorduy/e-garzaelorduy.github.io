@@ -33,18 +33,18 @@
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 0.9em; /* Reduce font size to 90% */
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 14.4px; /* 90% of the original 16px */
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px; /* 90% of the original 20px */
   }
 }
-
 
 /*
  * Sidebar
@@ -247,4 +247,16 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Styles for the profile picture */
+.profile-pic {
+  width: 120px; /* Adjust as needed for size */
+  height: 120px; /* Ensures a perfect circle */
+  border-radius: 50%; /* Makes the image circular */
+  position: absolute; /* Allows positioning relative to the page */
+  right: 20px; /* Distance from the right side */
+  bottom: 20px; /* Distance from the bottom */
+  border: 2px solid #FFFFFF; /* Optional: adds a border around the image */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
 }
