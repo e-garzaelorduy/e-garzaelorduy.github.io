@@ -260,5 +260,5 @@ a.sidebar-nav-item:focus {
   height: 130px; /* Ensures a square size for the circular crop */
   border-radius: 50%; /* Makes the image circular */
   display: block;
-  margin: 0 0 15px 0; /* Removes automatic centering, adds space below */
+  margin: 0 0 45px 0; /* Removes automatic centering, adds space below */
 }
