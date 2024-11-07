@@ -262,3 +262,13 @@ a.sidebar-nav-item:focus {
   display: block;
   margin: 0 auto 15px -10px; /* Centers the image horizontally and adds space below */
 }
+
+/* Adjust size and spacing of social media icons */
+.sidebar-social i {
+  font-size: 1.5em; /* Increases icon size; adjust as needed */
+  margin-right: 15px; /* Adds space between icons */
+}
+
+.sidebar-social i:last-child {
+  margin-right: 0; /* Removes right margin from the last icon */
+}
