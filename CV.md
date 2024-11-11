@@ -1,17 +1,9 @@
 ---
 layout: page
-title: 
+title: CV
 ---
 
-Here's is a more in-depth view of my work, education and experiences.
-
-[Prefer a download? (PDF)](CV.pdf){: .btn}
-
-
-# Contact Information
-📧 erikagarzaelorduy@gmail.com  |  📍 La Jolla, CA 92037  |  _contact me for phone number!_  
-
----
+[Prefer a download?](CV.pdf){: .btn}
 
 ## EDUCATION  
 - **Master of Science in Computational Social Science**  
@@ -33,12 +25,12 @@ Here's is a more in-depth view of my work, education and experiences.
 
 ### Transitional Kindergarten and Extended Day Teacher  
 **The Rhoades School**  |  2022-2023 school year  
-- Developed and implemented data-driven lesson plans and instructional materials, aligning with state standards and district curriculum to address the diverse needs of over 50 students.  
+- Developed and implemented informed lesson plans and instructional materials, aligning with state standards and district curriculum to address the diverse needs of over 50 students.  
 - Tailored curriculum and learning materials for a gifted student population, integrating digital solutions and technology tools via Learning Management Systems (LMS) to foster a 25% increase in student engagement.
 
 ### Training and Curriculum Specialist  
 **TOYOTA**  |  June 2019 - August 2020  
-- Elevated workforce development by designing and delivering ≈35 comprehensive training programs and manuals for five dealerships across Mexico; they are used to this day.  
+- Elevated workforce development by designing and delivering ≈35 comprehensive training programs and manuals for five dealerships across Mexico.
 - Ensured training courses and certifications remained current with best practices in adult learning and company standards.  
 - Utilized data analytics to assess training program effectiveness and make data-driven recommendations for continuous improvement.
 

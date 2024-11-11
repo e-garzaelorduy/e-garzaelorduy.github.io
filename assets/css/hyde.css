@@ -277,3 +277,17 @@ a.sidebar-nav-item:focus {
 .sidebar-social {
   padding-bottom: 15px; /* Adjust value to increase or decrease the space */
 }
+
+/* CV Download button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #225fa5; /* Customize as needed */
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #1a4b82; /* Customize hover color */
+}
