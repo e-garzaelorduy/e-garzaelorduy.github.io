@@ -1,17 +1,15 @@
 ---
 layout: page
-title: CV
+title: 
 ---
 
-This is a more in-depth view of my work, education and experiences.
+Here's is a more in-depth view of my work, education and experiences.
 
-# Erika Garza Elorduy  
-📧 erikagarzaelorduy@gmail.com  |  📍 La Jolla, CA 92037  
+[Prefer a download? (PDF)](CV.pdf){: .btn}
 
----
 
-## SUMMARY  
-Experienced in Public Interest Technology, Digital Literacy, Curriculum Development, Ethical AI, and access to opportunity.
+# Contact Information
+📧 erikagarzaelorduy@gmail.com  |  📍 La Jolla, CA 92037  |  _contact me for phone number!_  
 
 ---
 
