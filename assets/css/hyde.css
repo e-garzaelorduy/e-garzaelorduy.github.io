@@ -260,13 +260,13 @@ a.sidebar-nav-item:focus {
   height: 130px; /* Ensures a square size for the circular crop */
   border-radius: 50%; /* Makes the image circular */
   display: block;
-  margin: 0 auto 15px -10px; /* Centers the image horizontally and adds space below */
+  margin: 0 auto 15px -5px; /* Centers the image horizontally and adds space below */
 }
 
 /* Adjust size and spacing of social media icons */
 .sidebar-social i {
   font-size: 2em; /* Increases icon size; adjust as needed */
-  margin-right: 40px; /* Adds space between icons */
+  margin-right: 80px; /* Adds space between icons */
 }
 
 .sidebar-social i:last-child {
