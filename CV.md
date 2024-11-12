@@ -3,7 +3,7 @@ layout: page
 title: CV
 ---
 
-<a href="CV.pdf" download class="btn">Prefer a download?</a>
+[Prefer a download? (pdf))](CV.pdf){: .btn}
 
 ## EDUCATION  
 - **Master of Science in Computational Social Science**  
