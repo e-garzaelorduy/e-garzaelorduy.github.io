@@ -37,22 +37,22 @@ title: CV
 ---
 
 ## RESEARCH & PUBLICATIONS
-- **Paper**  |  On Artificial Intelligence and its impact on youth populations; focused on youth's perceived vulnerability to persuasive tactics, loss of agency, and use of private data online. (2021)
+- **Paper** | On Artificial Intelligence and its impact on youth populations; focused on youth's perceived vulnerability to persuasive tactics, loss of agency, and use of private data online. (2021)
   - Collected and analyzed qualitative and quantitative data, utilizing appropriate statistical techniques and software to derive meaningful and relevant insights, highlighting vulnerabilities critical to regulatory policy and privacy law.
-- **Research Assistant**  |  Dr. Daniela Díaz Flores, Ph.D. thesis (2021)  
+- **Research Assistant** | Dr. Daniela Díaz Flores, Ph.D. thesis (2021)  
   - Conducted extensive literature reviews and gathered relevant research materials on _“Bicultural Paternities”_, contributing to the thesis’ foundational scholarship. 
-- **Magazine Article**  |  Coauthored with Dr. Daniela Díaz Flores: _How social media is affecting the mental health of children._ (2022)
+- **Magazine Article** | Coauthored with Dr. Daniela Díaz Flores: _How social media is affecting the mental health of children._ (2022)
 
 ---
 
 ## PROJECTS / ORGANIZATIONS 
-- **Core Member**  |  Innovation for Everyone non-profit (Current)  
-- **Member**  |  All Tech is Human’s Mentorship Cohort: Ethical AI (2023)  
-- **Member**  |  Internet Society’s Southern California chapter (2023)  
-- **Member**  |  Fidutam’s *Education and Policy* and *Artificial Intelligence and Machine Learning* chapters (2023)   
-- **Digital Therapeutic Resource**  |  Digital Literacy for Parents and Educators. The myth of the digital native generation. (2022)  
-- **Educator**  |  Right at School in Encinitas, CA - provided high-quality educational opportunities in an environment that encouraged growth through safe playtime.  
-- **Member**  |  School of Psychology’s Student Council at CETYS (2019-2022)
+- **Core Member** | Innovation for Everyone non-profit (Current)  
+- **Member** | All Tech is Human’s Mentorship Cohort: Ethical AI (2023)  
+- **Member** | Internet Society’s Southern California chapter (2023)  
+- **Member** | Fidutam’s *Education and Policy* and *Artificial Intelligence and Machine Learning* chapters (2023)   
+- **Digital Therapeutic Resource** | Digital Literacy for Parents and Educators. The myth of the digital native generation. (2022)  
+- **Educator** | Right at School in Encinitas, CA - provided high-quality educational opportunities in an environment that encouraged growth through safe playtime.  
+- **Member** | School of Psychology’s Student Council at CETYS (2019-2022)
 
 ---
 
