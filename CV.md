@@ -39,9 +39,9 @@ title: CV
 ## RESEARCH & PUBLICATIONS
 - **Paper**  |  On Artificial Intelligence and its impact on youth populations; focused on youth's perceived vulnerability to persuasive tactics, loss of agency, and use of private data online. (2021)
   - Collected and analyzed qualitative and quantitative data, utilizing appropriate statistical techniques and software to derive meaningful and relevant insights, highlighting vulnerabilities critical to regulatory policy and privacy law.
-- **Research Assistant**  |  to Dr. Daniela Díaz Flores, Ph.D. thesis (2021)  
-  - Conducted extensive literature reviews and gathered relevant research materials on “Bicultural Paternities,” contributing to the thesis’ foundational scholarship. 
-- **Magazine Article**  |  Coauthored with Dr. Daniela Díaz Flores: How social media is affecting the mental health of children. (2022)
+- **Research Assistant**  |  Dr. Daniela Díaz Flores, Ph.D. thesis (2021)  
+  - Conducted extensive literature reviews and gathered relevant research materials on _“Bicultural Paternities”_, contributing to the thesis’ foundational scholarship. 
+- **Magazine Article**  |  Coauthored with Dr. Daniela Díaz Flores: _How social media is affecting the mental health of children._ (2022)
 
 ---
 
