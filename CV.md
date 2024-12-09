@@ -3,7 +3,7 @@ layout: page
 title: CV
 ---
 
-<a href="CV.pdf" download class="btn">Here's a download! (PDF)</a>
+<a href="assets/CV.pdff" download class="btn">Here's a download! (PDF)</a>
 
 ## EDUCATION  
 - **Master of Science in Computational Social Science**  
