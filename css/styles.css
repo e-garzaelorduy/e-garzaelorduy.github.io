@@ -25,18 +25,15 @@
     padding-top: 35px;
   }
 
-/* Menu hover effect and remove dark line look */
+/* Menu hover effect and remove dark line look (no white block background) */
 #menu a:hover {
     border-bottom: 2px solid #a0cfee;
     padding-bottom: 8px;
   }
   
   header ul {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12); /* stronger shadow */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12); /* stronger & blurrier shadow */
     border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.04); /* subtle divider */
-  }
-  
-  header {
-    background-color: #ffffff; /* in case transparency is causing edge issues */
+    background: rgba(255, 255, 255, 0.95); /* translucent background */
+    backdrop-filter: blur(6px); /* modern blur effect for readability */
   }
