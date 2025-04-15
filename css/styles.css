@@ -18,8 +18,22 @@
   display: block;
 }
 
-#about .col-md-4{display:flex;align-items:center;}
+/*! centering About Me heading to text on right */
+#about .col-md-4 {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 35px;
+  }
 
+/*! menu hovering effect and menu border edit (avoid black line) */
 #menu a:hover{border-bottom:2px solid #a0cfee;padding-bottom:8px;}
 .project-image img{transition:transform 0.3s ease,filter 0.3s ease;}
 .project-image img:hover{transform:scale(1.03);filter:brightness(1.05);}
+
+header ul {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: none;
+  }
+header a:hover {
+    background: #f0f4f9; /* softer than #eee */
+  }
