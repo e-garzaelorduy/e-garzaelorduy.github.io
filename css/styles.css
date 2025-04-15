@@ -32,8 +32,9 @@
   }
   
   header ul {
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12); /* stronger & blurrier shadow */
-    border: none;
-    background: rgba(255, 255, 255, 0.95); /* translucent background */
-    backdrop-filter: blur(6px); /* modern blur effect for readability */
+    background: rgba(255, 255, 255, 0.95); /* subtle glassy look */
+    backdrop-filter: blur(6px); /* modern blur effect */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08); /* soft, natural drop shadow */
+    border: none; 
+    border-bottom: none; 
   }
