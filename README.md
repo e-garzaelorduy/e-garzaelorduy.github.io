@@ -1,5 +1,8 @@
 # Erika Garza Elorduy — Personal Website
 
+![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-121013?logo=github&style=flat&color=blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 🌐 [https://e-garzaelorduy.github.io](https://e-garzaelorduy.github.io)
 
 This is the source code for my personal portfolio website, built using the [DevPortfolio](https://github.com/RyanFitzgerald/devportfolio) template by Ryan Fitzgerald and customized to reflect my work, values, and interests across technology, society, and policy.
