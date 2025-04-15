@@ -27,14 +27,14 @@
 
 /* Menu hover effect and remove dark line look (no white block background) */
 #menu a:hover {
-    border-bottom: 2px solid #a0cfee;
+
     padding-bottom: 8px;
   }
   
   header ul {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(6px);
-    box-shadow: 0 6px 30px rgba(19, 80, 91, .2); /* deep blue shadow instead of black */
+    box-shadow: 0 6px 16px rgba(19, 80, 91, .2); /* deep blue shadow instead of black */
     border: none;
     border-bottom: none;
   }
