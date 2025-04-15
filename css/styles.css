@@ -34,7 +34,7 @@
   header ul {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(6px);
-    box-shadow: 0 6px 16px rgba(19, 80, 91, 2.0); /* deep blue shadow instead of black */
+    box-shadow: 0 6px 16px rgba(19, 80, 91, 80); /* deep blue shadow instead of black */
     border: none;
     border-bottom: none;
   }
