@@ -1,6 +1,6 @@
 # Erika Garza Elorduy — Personal Website
 
-🌐 [Visit the site](https://e-garzaelorduy.github.io)
+🌐 [https://e-garzaelorduy.github.io](https://e-garzaelorduy.github.io)
 
 This is the source code for my personal portfolio website, built using the [DevPortfolio](https://github.com/RyanFitzgerald/devportfolio) template by Ryan Fitzgerald and customized to reflect my work, values, and interests across technology, society, and policy.
 
