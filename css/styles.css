@@ -37,3 +37,23 @@
     border: none;
     border-bottom: none;
   }
+
+/* Cover Pg First and Last Name Font Format */
+  .first-name {
+    font-weight: 900;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .last-name {
+    font-weight: 700;
+    font-size: 3.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin: 0 0 10px 0;
+  }
