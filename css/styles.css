@@ -41,7 +41,7 @@
 /* Cover Pg First and Last Name Font Format */
   .first-name {
     font-weight: 900;
-    font-size: 8em;
+    font-size: 8em !important;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     line-height: 0.9em;
